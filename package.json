@@ -25,6 +25,11 @@
     "chai-as-promised": "^4.3.0",
     "coffee-script": "^1.9.1",
     "in-publish": "^1.1.1",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "retry-policy": "0.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.14",
+    "ramda": "^0.11.0"
   }
 }
