@@ -1,6 +1,6 @@
 {
   "name": "promise-contrib-retry",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Retry a Promises/A+ thenable according to a retry-policy.",
   "main": "lib/index.js",
   "scripts": {
