@@ -1,0 +1,30 @@
+{
+  "name": "promise-contrib-retry",
+  "version": "0.0.0",
+  "description": "Retry a Promises/A+ thenable according to a retry-policy.",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "in-publish && (mkdir lib && coffee -cbo lib src) || in-install",
+    "postpublish": "rm -rf lib",
+    "test": "mocha --no-colors test/**/*-spec.coffee",
+    "watch": "mocha --no-colors --watch test/**/*-spec.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/systeminsights/promise-contrib-retry"
+  },
+  "keywords": [],
+  "author": "System Insights",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/systeminsights/promise-contrib-retry/issues"
+  },
+  "homepage": "https://github.com/systeminsights/promise-contrib-retry",
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "chai-as-promised": "^4.3.0",
+    "coffee-script": "^1.9.1",
+    "in-publish": "^1.1.1",
+    "mocha": "^2.1.0"
+  }
+}
